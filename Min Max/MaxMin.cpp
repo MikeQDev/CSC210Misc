@@ -14,13 +14,16 @@ void findMinMax(ifstream& inFile);
 
 int main(){
 	ifstream in;
-	in.open("C:/temp/Playground/numbers.txt");
+	in.open("numlist.txt");
 	if(in.fail()){
 		cout << "Error opening file. Exiting program.\n";
 		exit(-1);
 	}
 	findMinMax(in);
 	in.close();
+	int x;
+	cout << "Press any key followed by ENTER to end the program.";
+	cin >> x;
 	return 0;
 }
 void findMinMax(ifstream& inFile){

@@ -24,6 +24,9 @@ int main(){
 	}
 	startReading(in);
 	in.close();
+	int x;
+	cout << "Story written to 'story.txt'. Press any key followed by ENTER to end the program.";
+	cin >> x;
 	return 0;
 }
 void startReading(ifstream& in){
@@ -57,6 +60,7 @@ void startReading(ifstream& in){
 		in.get(p);
 	}
 	out.close();
+	
 }
 void keyboard_to_file(ofstream &fout) {
    char c;

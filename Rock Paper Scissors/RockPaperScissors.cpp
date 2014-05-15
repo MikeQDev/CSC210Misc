@@ -1,4 +1,4 @@
-// Description: Rock, Paper, Scissors Game (with functions)
+/ Description: Rock, Paper, Scissors Game (with functions)
 // Last Changed: February 28, 2014
 #include <iostream>
 #include <time.h>
